@@ -34,8 +34,8 @@ if __name__ == '__main__':
     conn = pymysql.connect(
         host='localhost',
         port=3306,
-        user='root',
-        password='930126',
+        user='',
+        password='',
         database='testdb',
         charset='utf8mb4'
     )
